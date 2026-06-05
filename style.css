@@ -50,6 +50,12 @@ body {
   color: #555;
 }
 
+.description-translation {
+    margin-top: 1rem;
+    font-style: romans;
+    color: #777;
+}
+
 button {
   background: #52796f;
   color: white;
