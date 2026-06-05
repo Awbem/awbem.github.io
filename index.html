@@ -1,9 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Sentence Scramble</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sentence Scramble</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Hello from GitHub Pages!</h1>
+  <header class="site-header">
+    <h1>Sentence Scramble</h1>
+    <p>A classroom word-order game for Chinese language learners.</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Generate a Word Set</h2>
+      <p class="description">
+        Click the button to generate scrambled words for students to arrange into a sentence.
+      </p>
+
+      <button id="generateBtn">Generate Words</button>
+
+      <div id="wordBox" class="word-box">
+        Words will appear here.
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created for Chinese class activities</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
