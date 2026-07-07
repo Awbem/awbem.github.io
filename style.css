@@ -32,6 +32,11 @@ main {
     margin: 24px auto;
 }
 
+.logo {
+    text-decoration: none;
+    color: inherit;
+}
+
 .project-category {
     margin-bottom: 24px;
     margin-top: 24px;
