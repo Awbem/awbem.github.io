@@ -11,11 +11,28 @@ body {
 }
 
 header {
+    position: relative;
     padding: 30px 20px 20px;
     text-align: center;
     background: #ffffff;
     color: white;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+.cornerlogo {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.cornerlogo a,
+.cornerlogo img {
+    display: block;
+}
+
+.cornerlogo img {
+    width: clamp(56px, 12vw, 100px);
+    height: auto;
 }
 
 header h1 {
